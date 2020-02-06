@@ -12,9 +12,9 @@ class ConfigsTableSeeder extends Seeder
     public function run()
     {
         DB::table('configs')->insert([
-            ['id' => 1,'title' => '网站名称','type' => 'text','name' => 'WEB_SITE_NAME','group_name' => '基本','value' => 'FullStack','remark' => '','status' => 1],
-            ['id' => 2,'title' => '关键字','type' => 'text','name' => 'WEB_SITE_KEYWORDS','group_name' => '基本','value' => 'FullStack','remark' => '','status' => 1],
-            ['id' => 3,'title' => '描述','type' => 'textarea','name' => 'WEB_SITE_DESCRIPTION','group_name' => '基本','value' => 'FullStack','remark' => '','status' => 1],
+            ['id' => 1,'title' => '网站名称','type' => 'text','name' => 'WEB_SITE_NAME','group_name' => '基本','value' => 'QuarkCMS','remark' => '','status' => 1],
+            ['id' => 2,'title' => '关键字','type' => 'text','name' => 'WEB_SITE_KEYWORDS','group_name' => '基本','value' => 'QuarkCMS','remark' => '','status' => 1],
+            ['id' => 3,'title' => '描述','type' => 'textarea','name' => 'WEB_SITE_DESCRIPTION','group_name' => '基本','value' => 'QuarkCMS','remark' => '','status' => 1],
             ['id' => 4,'title' => 'Logo','type' => 'picture','name' => 'WEB_SITE_LOGO','group_name' => '基本','value' => '','remark' => '','status' => 1],
             ['id' => 5,'title' => '统计代码','type' => 'textarea','name' => 'WEB_SITE_SCRIPT','group_name' => '基本','value' => '','remark' => '','status' => 1],
             ['id' => 6,'title' => '网站版权','type' => 'text','name' => 'WEB_SITE_COPYRIGHT','group_name' => '基本','value' => '© Company 2018','remark' => '','status' => 1],

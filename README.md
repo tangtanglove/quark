@@ -31,10 +31,4 @@
 
 ## 官方支持
 
-github地址:https://github.com/tangtanglove/fullstack
-
-## 演示地址
-
-http://fullstack.qasl.cn/admin/
-
-默认用户名：administrator 密码：123456
+github地址:https://github.com/tangtanglove/quark
